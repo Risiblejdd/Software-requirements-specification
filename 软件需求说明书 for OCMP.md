@@ -8,7 +8,7 @@
 
 ### 1. 2 背景
 
-​	本次开发的项目为线上共享听歌聊天平台，由团队Tom & Jerry提出并开发。
+​	本次开发的项目为线上共享听歌聊天平台，用户可以与平台上在线的世界各地的网友同听一首歌，并进行实时的通讯社交。由团队Tom & Jerry提出并开发。
 
 ### 1. 3 定义
 
@@ -23,17 +23,21 @@
 
 ### 1. 4 参考文献
 
-​	[1] 邹欣.构建之法[M].第三版.人民邮电出版社,2017
+​	[1] GB-T8567-2006，《计算机软件文档编制规范》[S]
+
+​	[2].（美）Roger S.Pressman著，郑人杰等译.软件工程[M].第七版.北京：机械工业出版社,2011.
+
+​	[3] 邹欣著.构建之法[M].第三版.人民邮电出版社,2017
 
 ## 二、项目概述
 
 ### 2. 1 产品描述
 
-​		这是一款基于web网页的聊天听歌平台，用来与朋友、陌生人听歌聊天。借由本平台可以朋友之间，陌生人之间来感受音乐的魅力，体会音乐之美。
+​		这是一款基于web网页的聊天听歌平台，在这里你可以听歌、点歌，同听一首歌的以及与平台在线的网友进行实时聊天。本平台可以帮助你与世界各地的网友之间共同感受音乐的魅力，欣赏音乐之美。
 
 ### 2. 2 产品功能
 
-​	对于市面上的听歌软件都是单人听歌，少有做到多人同时在线听歌聊天。由此作为启发，我们提出了基于web网页的聊天听歌平台，可以与平台在线的网友同听一首歌并进行实时聊天。
+​	市面上的听歌软件都是单人听歌，少有做到多人同时在线听歌聊天。由此作为启发，我们提出了基于web网页的聊天听歌平台，它可以帮助你与平台在线的网友同听一首歌并进行实时聊天。
 
 ### 2. 3 一般约束
 
@@ -41,19 +45,19 @@
 
 #### 		2. 3. 1 开发环境约束
 
-​		开发工具：IDEA
+​	开发工具：IDEA
 
-​		 测试工具：Chrome
+​	测试工具：Chrome
 
-​		开发语言：Java、JavaScript、HTML
+​	开发语言：Java、JavaScript、HTML
 
 #### 		2. 3. 2 时间约束
 
-​		开发周期短，一个月的开发时间需要开发者合理规划时间，对于刚成立的团队和生疏的操作还需要磨合。
+​	开发周期短，一个月的开发时间需要开发者合理规划时间，对于刚成立的团队和生疏的操作还需要磨合。
 
 #### 		2. 3. 3 技术约束
 
-​		所采用的方法与技术有限，项目团队成员的技术水平不够成熟，需要在开发中并发学习多种技术和能力。
+​	所采用的方法与技术有限，项目团队成员的技术水平不够成熟，需要在开发中并发学习多种技术和能力。
 
 ### 2. 4 假设与依据
 
@@ -71,7 +75,7 @@
 
 典型用户：小洁（学生）
 
-用户需求：听自己喜欢歌手的歌
+用户需求：与大家一起听歌
 
 场景描述：小洁同学是一名大三的学生，最喜欢的明星就是李易峰，每次他出了什么新的歌曲或者新专辑，都是第一时间去听，还喜欢和和大家分享自己喜欢歌手的歌曲。她发现了OMCP这个既可以听歌又可以聊天的网站就果断选择了，因为这不仅可以听自己喜欢听的歌曲还可以和别人一起分享表达自己对歌曲理解与看法。
 
@@ -89,28 +93,34 @@
 
 用户需求：消磨时间
 
-场景描述：老黄是一名退休工人，平时的空闲时间较多，自己平时也喜欢唱歌，听歌，当他偶然发现OMCP这个听歌网站后，非常的满意，每天都要进去听听。
+场景描述：老黄是一名退休工人，平时的空闲时间较多，自己平时也喜欢唱歌、听歌，当他偶然发现OMCP这个网站后，能随机听到不同类型的歌曲，这丰富了他的音乐口味，他感到非常的满意，每天都要进去玩玩。
 
 ## 四、具体需求
+
 ### 4. 1 用例图
+
 ![8](https://img-blog.csdnimg.cn/20200609124042833.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTczMzA0Nw==,size_16,color_FFFFFF,t_70)
+
 ### 4. 2 类图
+
 ![9](https://img-blog.csdnimg.cn/20200609130628465.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTczMzA0Nw==,size_16,color_FFFFFF,t_70)
+
 ### 4. 3 顺序图
+
 - TextArea：边界类
 - ChatSystem：控制类
 - ChatArea：边界类
-![1](https://img-blog.csdnimg.cn/2020060912194891.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTczMzA0Nw==,size_16,color_FFFFFF,t_70)
+  ![1](https://img-blog.csdnimg.cn/2020060912194891.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTczMzA0Nw==,size_16,color_FFFFFF,t_70)
 - Form：边界类
 - BackgroundSystem：控制类
 - DataBase：辅助类
 - Logininteface：边界类
-![2](https://img-blog.csdnimg.cn/20200609122717656.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTczMzA0Nw==,size_16,color_FFFFFF,t_70)
+  ![2](https://img-blog.csdnimg.cn/20200609122717656.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTczMzA0Nw==,size_16,color_FFFFFF,t_70)
 - Form：边界类
 - BackgroundSystem：控制类
 - DataBase：辅助类
 - MainPage：边界类
-![3](https://img-blog.csdnimg.cn/20200609123000489.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTczMzA0Nw==,size_16,color_FFFFFF,t_70)
+  ![3](https://img-blog.csdnimg.cn/20200609123000489.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTczMzA0Nw==,size_16,color_FFFFFF,t_70)
 - SearchBar：边界类
 - SerchSystem：控制类
 - API：辅助类
@@ -118,16 +128,16 @@
 - SelectSong：控制类
 - SongsManageSystem：控制类
 - SongsList：边界类
-![4](https://img-blog.csdnimg.cn/2020060912322967.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTczMzA0Nw==,size_16,color_FFFFFF,t_70)
+  ![4](https://img-blog.csdnimg.cn/2020060912322967.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTczMzA0Nw==,size_16,color_FFFFFF,t_70)
 - VoteWindow：边界类
 - PromptSystem：控制类
 - SongList：辅助类
-![5](https://img-blog.csdnimg.cn/20200609123328871.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTczMzA0Nw==,size_16,color_FFFFFF,t_70)
+  ![5](https://img-blog.csdnimg.cn/20200609123328871.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTczMzA0Nw==,size_16,color_FFFFFF,t_70)
 - PromptSystem：控制类
 - SongList：实体类
-![6](https://img-blog.csdnimg.cn/20200609123424616.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTczMzA0Nw==,size_16,color_FFFFFF,t_70)
+  ![6](https://img-blog.csdnimg.cn/20200609123424616.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTczMzA0Nw==,size_16,color_FFFFFF,t_70)
 - Songlist：边界类
-![7](https://img-blog.csdnimg.cn/20200609123517836.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTczMzA0Nw==,size_16,color_FFFFFF,t_70)
+  ![7](https://img-blog.csdnimg.cn/20200609123517836.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTczMzA0Nw==,size_16,color_FFFFFF,t_70)
 
 ### 4.4 外部接口需求
 
@@ -169,6 +179,207 @@
 
 ## 六、功能描述
 
+### 6. 1 登录功能
+
+#### 6. 1. 1 初始界面
+
+- 检验点
+  - 用户名、密码、默认为空；记住密码默认未选择；用户名为长度大于6位小于10位的数字的组合；密码长度大于6位小于10位，可为数字、英文字的任意组合
+- 预期结果
+  - 登录、注册、记住密码按扭完整；用户名输入框完整；密码框完整
+
+#### 6. 1. 2 登陆动作
+
+- 输入输出：
+  - 无信息输入，点击登录
+  - 仅输入用户名或密码（输入类型正确；无论存在与否）其一，点击登录
+  - 输入用户名及密码，两者其一错误或都错误（输入类型正确），点击登录
+  - 用户名或密码格式错误（包含非法符号），点击登录
+  - 输入符合身份的正确用户名和密码，点击登录
+- 检验点
+  - 确认功能、结果显示 * 4
+  - 确认功能、跳转功能
+- 预期结果
+  - 登录失败，警告提示：“请输入用户名和密码”
+  - 登录失败，警告提示：“请输入完整登陆信息”
+  - 登录失败，警告提示：“请输入正确的登陆信息”
+  - 登录失败，警告提示：“用户名或密码输入类型错误”
+  - 登录成功，进入主页
+
+#### 6. 1. 3 记住密码动作
+
+- 检验点
+  - 点击记住密码单选按钮
+  - 未点击记住密码单选按钮
+- 预期结果
+  - 下一次登录时用户名和密码默认为本次登录成功的用户名和密码
+  - 下一次登录时用户名和密码默认为空
+
+### 6. 2 注册功能
+
+#### 6. 2. 1 初始界面
+
+- 检验点
+  - 用户名，昵称，密码，记住密码默认为空；同意遵守协议默认未选择；用户名为长度大于6位小于10位的数字组合；昵称长度大于6位小于10位，可为数字、英文字、下划线符、汉字的任意组合；密码长度长度大于6位小于10位，可为数字、英文字的任意组合；确认密码必须和密码保持一致
+- 预期结果
+  - 注册、同意遵守协议按扭完整；用户名、密码、确认密码框内容完整
+
+#### 6. 2. 2 注册动作
+
+- 输入输出
+  - 无信息输入，点击注册
+  - 必要信息输入不完整，点击注册
+  - 输入信息不规范，点击注册
+  - 输入符合规范的注册信息，并选择同意遵守协议，点击注册
+- 检验点
+  - 确认功能、结果显示 * 3
+  - 确认功能、跳转功能
+- 预期结果
+  - 注册失败，警告提示：“请输入完整注册信息“ * 2
+  - 注册失败，警告提示：“请输入正确的注册信息”
+  - 注册成功，进入登录界面
+
+### 6. 3 “我的”
+
+#### 6. 3. 1 初始界面
+
+- 检验点
+  - 昵称为注册成功时的性别；昵称长度大于6位小于10位，可为数字、英文字、下划线符、汉字的任意组合
+- 预期功能
+  - 昵称输入框完整；歌单管理、确认修改按钮完整
+
+#### 6. 3. 2 确认修改动作
+
+- 输入输出
+  - 无信息输入，点击确认修改
+  - 必要信息输入不完整，点击确认修改
+  - 输入信息不规范，点击确认修改
+  - 输入符合规范的必要信息，点击确认修改
+- 检验点
+  - 确认功能、结果显示 * 3
+  - 确认功能、跳转功能
+- 预期结果
+  - 修改失败，警告提示：“请输入信息后再点击修改”
+  - 修改失败，警告提示：“请输入必要信息”
+  - 修改失败，警告提示：“请输入正确的信息”
+  - 修改成功，进入主页面
+
+#### 6. 3. 3 歌单管理动作
+
+- 检验点
+  - 点击歌单管理按钮
+- 预期结果
+  - 普通用户点击后将提示”你不是管理员，无法管理歌单“，管理员用户点击后将跳转到歌单管理页面
+
+#### 6. 3. 4 我的收藏
+
+- 检验点
+  - 点击我的收藏按钮
+- 预期结果
+  - 弹出一个窗口，里面显示用户已收藏的歌曲
+
+#### 6. 3. 5 退出登录动作
+
+- 检验点
+  - 点击退出登录按钮
+- 预期结果
+  - 退出当前账户，并跳转到初始主页面
+
+### 6. 4 歌单管理功能
+
+#### 6. 4. 1 初始页面
+
+- 检验点
+  - 进度条默认为当前播放歌曲的进度
+- 预期结果
+  - 暂停、切歌、移除歌曲、黑名单按钮完整
+
+#### 6. 4. 2 暂停动作
+
+- 检验点
+  - 点击暂停动作
+- 预期结果
+  - 暂停当前正在播放的歌曲
+
+#### 6. 4. 3 切歌动作
+
+- 检验点
+  - 点击切歌动作
+- 预期结果
+  - 暂停当前正在播放的歌曲，切换到歌单中的第一首歌曲
+
+####  6. 4. 4 移除歌曲动作
+
+- 检验点
+  - 点击切歌按钮
+- 预期结果
+  - 暂停当前正在播放的歌曲，切换到歌单中的第一首歌曲
+
+#### 6. 4. 5 黑名单
+
+- 检验点
+  - 点击黑名单按钮
+- 预期结果
+  - 切换当前正在播放的歌曲，播放歌单中的下一首歌
+
+### 6. 5 主页面功能
+
+#### 6. 5. 1 初始页面
+
+- 检验点
+  - 进度条默认为当前播放歌曲的进度；聊天框、搜索栏默认为空
+- 预期结果
+  - 投票切歌、查看歌单、收藏、音量、发送按钮、搜索按钮完整
+
+#### 6. 5. 2 聊天动作
+
+- 输入输出
+  - 无信息输入，点击发送
+  - 输入信息，点击发送
+- 检验点
+  - 确认功能 * 2
+- 预期结果
+  - 无法发送
+  - 输入框中的发送到聊天室
+
+#### 6. 5. 3 搜索动作
+
+- 输入输出
+  - 无信息输入，点击搜索
+  - 输入信息，点击搜索
+- 检验点
+  - 确认功能 * 2
+- 预期结果
+  - 无法搜索
+  - 显示与搜索栏中输入信息有关的歌曲名称
+
+#### 6. 5. 4 投票切歌动作
+
+- 检验点
+  - 点击投票切歌按钮
+- 预期结果
+  - 正在播放的歌曲不喜欢的人数加一
+
+#### 6. 5. 5 查看歌单动作
+
+- 检验点
+  - 点击查看歌单按钮
+- 预期结果
+  - 弹出歌单信息窗口
+
+#### 6. 5. 6 收藏动作
+
+- 检验点
+  - 点击收藏按钮
+- 预期结果
+  - 将当前播放歌曲加入到我的收藏中
+
+#### 6. 5. 7 调节音量动作
+
+- 检验点
+  - 点击音量按钮
+- 预期结果
+  - 出现音量调节控件，可调节音量大小
 ## 七、验收验证标准
 
 ### 7. 1 文档验收标准
@@ -208,10 +419,4 @@
 - 当歌单为空且超过五分钟无用户点歌时，将自动从API随机获取歌单并加入到OMCP歌单中
 - 聊天可以发送系统提供的表情
 - 我的收藏中的歌曲可以提供歌曲链接进行跳转
-
-## 八、工作分配
-
-| 人员 | 何昆佰 | 刘超然 | 高洁 | 黄波 | 刘丙亮 | 林金 | 李安娜 | 蒋晨 |
-| :--: | :----: | :----: | :--: | :--: | :----: | :--: | :----: | :--: |
-| 比例 |        |        |      |      |        |      |        |      |
-
+- 提供绑定手机号功能，能在忘记密码的时候通过其修改绑定帐号的密码
